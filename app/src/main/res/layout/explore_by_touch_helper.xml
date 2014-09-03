@@ -20,7 +20,7 @@
     android:orientation="vertical" >
 
     <view
-        class="com.example.android.supportv4.widget.ExploreByTouchHelperActivity$CustomView"
+        class="canalsprojects.suportlibrary.widget.ExploreByTouchHelperActivity$CustomView"
         android:id="@+id/custom_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

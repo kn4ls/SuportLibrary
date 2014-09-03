@@ -184,4 +184,5 @@
 
     <!--  Swipe refresh -->
     <string name="swipe">Widget/SwipeRefreshLayout</string>
+    <string name="refresh">Refresh</string>
 </resources>

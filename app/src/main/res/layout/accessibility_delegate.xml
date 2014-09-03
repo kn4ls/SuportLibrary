@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:text="@string/accessibility_delegate_instructions"/>
 
-    <view class="com.example.android.supportv4.accessibility.AccessibilityDelegateSupportActivity$AccessibilityDelegateSupportView"
+    <view class="canalsprojects.suportlibrary.accessibility.AccessibilityDelegateSupportActivity$AccessibilityDelegateSupportView"
         android:layout_width="wrap_content"
         android:layout_height="50dip"
         android:layout_marginTop="50dip"
