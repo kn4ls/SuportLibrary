@@ -16,26 +16,26 @@
 
 
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
     >
     <view class="canalsprojects.suportlibrary.media.TransportControllerActivity$Content"
         android:id="@+id/content"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:layout_gravity="center"
         />
     <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:fitsSystemWindows="true"
         android:animateLayoutChanges="true"
         >
-        <com.example.android.supportv4.media.MediaController
+        <canalsprojects.suportlibrary.media.MediaController
                 android:id="@+id/media_controller"
-                android:layout_width="match_parent"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom">
-        </com.example.android.supportv4.media.MediaController>
+        </canalsprojects.suportlibrary.media.MediaController>
     </FrameLayout>
 </FrameLayout>
 

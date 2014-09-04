@@ -19,7 +19,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:padding="4dip"
     android:gravity="center_horizontal"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
 
     <TextView
             android:id="@+id/text"
@@ -33,7 +33,7 @@
             android:text="@string/fragment_arguments_msg" />
 
     <LinearLayout android:orientation="horizontal" android:padding="4dip"
-        android:layout_width="match_parent" android:layout_height="wrap_content">
+        android:layout_width="fill_parent" android:layout_height="wrap_content">
 
         <fragment class="canalsprojects.suportlibrary.app.FragmentArgumentsSupport$MyFragment"
                 android:id="@+id/embedded"
@@ -51,7 +51,7 @@
 
     <fragment class="canalsprojects.suportlibrary.app.FragmentArgumentsSupport$MyFragment"
             android:id="@+id/embedded_land"
-            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
             android:label="@string/fragment_arguments_embedded_land" />
 
 </LinearLayout>

@@ -35,7 +35,7 @@ import java.io.OutputStream;
  * Sample that shows how private files can be easily shared.
  */
 public class FileProviderExample extends Activity {
-    private static final String AUTHORITY = "com.example.android.supportv4.my_files";
+    private static final String AUTHORITY = "canalsprojects.suportlibrary.my_files";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

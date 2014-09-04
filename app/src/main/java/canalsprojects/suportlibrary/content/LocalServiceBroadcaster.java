@@ -40,9 +40,9 @@ import android.widget.TextView;
  * data from a service to any other interested code.
  */
 public class LocalServiceBroadcaster extends Activity {
-    static final String ACTION_STARTED = "com.example.android.supportv4.STARTED";
-    static final String ACTION_UPDATE = "com.example.android.supportv4.UPDATE";
-    static final String ACTION_STOPPED = "com.example.android.supportv4.STOPPED";
+    static final String ACTION_STARTED = "canalsprojects.suportlibrary.STARTED";
+    static final String ACTION_UPDATE = "canalsprojects.suportlibrary.UPDATE";
+    static final String ACTION_STOPPED = "canalsprojects.suportlibrary.STOPPED";
 
     LocalBroadcastManager mLocalBroadcastManager;
     BroadcastReceiver mReceiver;

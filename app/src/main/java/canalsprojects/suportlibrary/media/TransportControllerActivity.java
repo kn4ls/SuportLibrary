@@ -17,8 +17,11 @@
 package canalsprojects.suportlibrary.media;
 
 
+import android.annotation.TargetApi;
+import android.os.Build;
 import android.support.v4.media.TransportMediator;
 import android.support.v4.media.TransportPerformer;
+
 import canalsprojects.suportlibrary.R;
 
 import android.app.ActionBar;
@@ -103,6 +106,7 @@ public class TransportControllerActivity extends Activity {
      * the activity's view hierarchy, going under the status bar and nav
      * bar areas.
      */
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     public static class Content extends VideoView implements
             View.OnSystemUiVisibilityChangeListener, View.OnClickListener,
             ActionBar.OnMenuVisibilityListener, MediaPlayer.OnPreparedListener,
@@ -129,6 +133,7 @@ public class TransportControllerActivity extends Activity {
             }
         };
 
+        @TargetApi(Build.VERSION_CODES.HONEYCOMB)
         public Content(Context context, AttributeSet attrs) {
             super(context, attrs);
             setOnSystemUiVisibilityChangeListener(this);
@@ -148,7 +153,9 @@ public class TransportControllerActivity extends Activity {
             pause();
         }
 
-        @Override protected void onAttachedToWindow() {
+        @TargetApi(Build.VERSION_CODES.HONEYCOMB)
+        @Override
+        protected void onAttachedToWindow() {
             super.onAttachedToWindow();
             if (mActivity != null) {
                 mAddedMenuListener = true;
@@ -156,7 +163,9 @@ public class TransportControllerActivity extends Activity {
             }
         }
 
-        @Override protected void onDetachedFromWindow() {
+        @TargetApi(Build.VERSION_CODES.HONEYCOMB)
+        @Override
+        protected void onDetachedFromWindow() {
             super.onDetachedFromWindow();
             if (mAddedMenuListener) {
                 mActivity.getActionBar().removeOnMenuVisibilityListener(this);
@@ -241,6 +250,7 @@ public class TransportControllerActivity extends Activity {
             }
         }
 
+        @TargetApi(Build.VERSION_CODES.HONEYCOMB)
         void setNavVisibility(boolean visible) {
             int newVis = SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
                     | SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
