@@ -32,7 +32,7 @@ import java.io.FileNotFoundException;
  */
 public class SharingSupportProvider extends ContentProvider {
     public static final Uri CONTENT_URI =
-            Uri.parse("content://com.example.supportv4.content.sharingsupportprovider");
+            Uri.parse("content://canalsprojects.suportlibrary.content.sharingsupportprovider");
 
     private static final String TAG = "SharingSupportProvider";
 

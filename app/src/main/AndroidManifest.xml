@@ -207,7 +207,7 @@
             </intent-filter>
         </activity>
         <provider android:name=".app.LoaderThrottleSupport$SimpleProvider"
-                  android:authorities="com.example.android.apis.supportv4.app.LoaderThrottle" />
+                  android:authorities="canalsprojects.suportlibrary.app.LoaderThrottle" />
 
         <activity android:name=".content.LocalServiceBroadcaster"
                 android:label="@string/local_service_broadcaster">
@@ -313,7 +313,7 @@
             </intent-filter>
         </activity>
 
-        <provider android:authorities="com.example.supportv4.content.sharingsupportprovider"
+        <provider android:authorities="canalsprojects.suportlibrary.content.sharingsupportprovider"
                   android:name=".content.SharingSupportProvider" />
 
         <!-- FileProvider Example -->
