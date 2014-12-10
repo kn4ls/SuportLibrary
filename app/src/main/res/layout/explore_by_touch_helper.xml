@@ -20,7 +20,7 @@
     android:orientation="vertical" >
 
     <view
-        class="canalsprojects.suportlibrary.widget.ExploreByTouchHelperActivity$CustomView"
+        class="com.dualion.suportlibrary.widget.ExploreByTouchHelperActivity$CustomView"
         android:id="@+id/custom_view"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />

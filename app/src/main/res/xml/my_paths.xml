@@ -1,5 +1,4 @@
-
-<paths xmlns:android="http://schemas.android.com/apk/res/android">
+<paths>
     <!-- Offer access to files under Context.getFilesDir() + "thumbs/"
          through alias "my_thumbs" -->
     <files-path name="my_thumbs" path="thumbs/" />
